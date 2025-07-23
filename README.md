@@ -31,6 +31,7 @@ Filled missing entries (NaNs) with 0 using .fillna(0)
 Combined five separate weekly DataFrames into one using pandas.concat()
 Dropped unrelated columns (like movie rank) to focus on the dataset
 Why?
+
 These cleaning choices were necessary for accurate math, plotting, and weekly comparisons. Without this step, we would not be able to calculate revenue changes or plot trends correctly.
 
 What visualizations did we use?
@@ -54,7 +55,9 @@ Pie chart of Endgame vs. other top 5 movies in each week
 Timeline view to show both box office and Twitter sentiment chronologically
 
 Relevance & Broader Impact
+
 Where is this helpful?
+
 For film studios, to analyze movie performance beyond opening weekend
 For marketers, to understand how social media affects revenue
 For data analysts, to practice cleaning, merging, and visualizing real-world API data
